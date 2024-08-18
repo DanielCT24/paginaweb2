@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editorial Grethel</title>
+    <script src="/JAVA SCRIPT/GENERAL.JS"></script>
+    <script src="/JAVA SCRIPT/PRODUCTOS.JS"></script>
+    <link rel="stylesheet" href="/CSS/CSS-PRINCIPAL.css"></link>
+    <link rel="icon" sizes="180x180" href="/ICON/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/ICON/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/ICON/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://kit.fontawesome.com/21bc0e3a65.js" crossorigin="anonymous"></script>
+
+    <script>
+        // JavaScript para cambiar el estilo del encabezado al hacer scroll
+        window.addEventListener('scroll', function() {
+            var header = document.querySelector('header');
+            
+            if (window.scrollY > 0) {
+                header.classList.add('scroll');
+            } else {
+                header.classList.remove('scroll');
+            }
+        });
+    </script>
+</head>
+
+<body>
+
+<!-- Header - menu -->
+<header>
+    <div class="fade-in">
+    <div class="container__header" id="inicio">
+    
+        <div class="logo">
+        <a href="/PRINCIPAL.html">
+            <img src="/HEADER Y BODY/LOGO.png" alt="">
+        </a>
+        </div>
+        <div class="menu">
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="/PRINCIPAL.html">INICIO</a></li>
+                    <li><a href="------------">CONTACTO</a></li>
+                    <li><a href="#ofertas">OFERTAS</a></li>
+                    <li><a href="#catalogo">CATÁLOGO</a></li>
+                    <li><a href="---------------">ENVÍOS</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn__quote">COTIZAR</a>
+
+            <div class="socialMedia">
+                <a href="#">
+                    <img src="/HEADER Y BODY/facebook.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="/HEADER Y BODY/instagram.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="/HEADER Y BODY/twitter.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+</header>
+
+<main>
+
+<!-- INICIO DE LA WEB -->
+ <!-- PORTADA DE INICIO -->
+ <div class="container__cover div_offset ">
+    <div class="cover">
+        <section class="text__cover">
+            <h1>Los mejores </h1>
+            <h1> materiales </h1>
+            <h1>al mejor </h1>
+            <h1>precio </h1>
+            <p>Somos la Editorial Grethel los precios más bajos siempre.</p>
+            <a href="#catalogo" class="btn__text-cover btn__text">VER CATÁLOGO</a>
+        </section>
+
+        <section class="image__cover">
+            <img src="/Libros preuniversitarios.gif" alt="">
+        </section>
+    </div>
+ </div>
+
+ <!-- OFERTAS -->
+
+ <div class="fade-in">
+
+ <section class="ofertas" id="ofertas" > 
+
+
+  <div class="container__trust container__card-primary">
+    <div class="trust card__primary">
+        <div class="text__trust text__card-primary">
+            <p> OFERTAS LIMITADAS </p>
+            <h1> Hasta el 02 de Octubre</h1>
+        </div>
+
+
+        <div class="container__trust container__box-cardPrimary">
+            <div class="card__trust box__card-primary fade-in"  data-product-id="1">
+                <img src="/IMAGENES/EDITORIALES/GUÍAS-SOLUCIONARIOS-EXTRA/1.png" alt="">
+                <h2>Guía Científica </h2>
+                <p> Por tan solo </p>
+                <p class="precio"> S/ 20</p>
+                <button class="btn__add-cart">Añadir al Carrito</button>
+            </div>
+            <div class="card__trust box__card-primary fade-in"  data-product-id="2">
+                <img src="/IMAGENES/EDITORIALES/GUÍAS-SOLUCIONARIOS-EXTRA/2.jpg" alt="">
+                <h2>Guía Humanística</h2>
+                <p> Por tan solo </p>
+                <p class="precio"> S/ 20</p>
+                <button class="btn__add-cart">Añadir al Carrito</button>
+            </div>
+            <div class="card__trust box__card-primary fade-in"  data-product-id="3">
+                <img src="/IMAGENES/EDITORIALES/GUÍAS-SOLUCIONARIOS-EXTRA/DECO.jpeg" alt="">
+                <h2>Puro DECO UNMSM</h2>
+                <p> Por tan solo </p>
+                <p class="precio"> S/ 18</p>
+                <button class="btn__add-cart">Añadir al Carrito</button>
+            </div>
+            <div class="card__trust box__card-primary fade-in"  data-product-id="4">
+                <img src="/IMAGENES/EDITORIALES/GUÍAS-SOLUCIONARIOS-EXTRA/CEREBRITO.jpg" alt="">
+                <h2>Formulario Cerebrito</h2>
+                <p> Por tan solo </p>
+                <p class="precio"> S/ 14</p>
+                <button class="btn__add-cart">Añadir al Carrito</button>
+            </div>
+            <div class="card__trust box__card-primary fade-in"  data-product-id="5">
+                <img src="/IMAGENES/EDITORIALES/GUÍAS-SOLUCIONARIOS-EXTRA/SAMANIEGO 1.jpg" alt="">
+                <h2>Historia del Perú</h2>
+                <p> Por tan solo </p>
+                <p class="precio"> S/ 20</p>
+                <button class="btn__add-cart">Añadir al Carrito</button>
+            </div>
+            <div class="card__trust box__card-primary fade-in"  data-product-id="6">
+                <img src="/IMAGENES/EDITORIALES/GUÍAS-SOLUCIONARIOS-EXTRA/SAMANIEGO 2.jpg" alt="">
+                <h2>Historia del Mundo</h2>
+                <p> Por tan solo </p>
+                <p class="precio"> S/ 18</p>
+                <button class="btn__add-cart">Añadir al Carrito</button>
+            </div>
+           
+<!-- Barra Lateral del Carrito -->
+<aside id="sidebar" class="sidebar">
+    <button id="closeSidebar" class="close-btn">&times;</button>
+    <h2>Carrito</h2>
+    <div id="cartItems" class="cart-items">
+        <!-- Aquí se añadirá el contenido del carrito -->
+    </div>
+    <p id="totalPrice">Total: S/ 0</p>
+    <div class="cart-footer">
+        <button id="go-to-checkout">Ir a la Caja</button>
+        <button id="empty-cart">Vaciar Carrito</button>
+    </div>
+</aside>
+
+        </div>
+    </div>
+  </div>
+</div>
+</section>
+  <!-- SOBRE NOSOTROS -->
+  <div class="fade-in">
+  <div class="container__about div_offset">
+    <div class="about">
+        <div class="text__about">
+            <h1> Contamos con más de 10 años de experiencia</h1>
+            <p> Ayudando a miles de jóvenes con sed de ingresar a las diversersas Universidades que se propongan 😉</p>
+            <a href="#" class="btn__text-about btn__text">SABER MÁS</a>
+        </div>
+
+        <div class="image__about">
+            <img src="/HEADER Y BODY/Mockups/1.png" alt="">
+            <img src="/HEADER Y BODY/Mockups/2.png" alt=""> 
+        </div>
+    </div>
+
+  </div>
+
+<!-- SERVICIOS, CATALOGO -->
+<div class="fade-in">
+    <div class="container__service container__card-primary div_offset" id="catalogo">
+        <div class="service card__primary">
+            <div class="text__service text__card-primary">
+                <p>NUESTRAS EDITORIALES</p>
+                <h1>Disponibles</h1>
+            </div>
+        </div>
+
+        <!-- Contenedor Único para la Sección de Editoriales -->
+        <div class="container__editoriales">
+            <div class="container__card-service container__box-cardPrimary">
+                
+                <!-- EDITORIALES DISPONIBLES -->        
+                <div class="card__service box__card-primary">
+                    <a href="HTML/Editoriales/Lumbreras.html"><img src="/IMAGENES/EDITORIALES - PRINCIPIO/Lumbreras.jpg" alt=""></a>
+                    <h2> Editorial Lumbreras</h2>
+                    <p>Mira todos nuestros libros disponibles</p>
+                    <a href="HTML/Editoriales/Lumbreras.html">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- HASTA ACA PARA AGREGAR EDITORIALES -->
+                <!-- EDITORIALES DISPONIBLES -->        
+                <div class="card__service box__card-primary">
+                    <a href="-----------------"><img src="/IMAGENES/EDITORIALES - PRINCIPIO/cuzcano.jpg" alt=""></a>
+                    <h2> Editorial Cuzcano</h2>
+                    <p>Mira todos nuestros libros disponibles</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- HASTA ACA PARA AGREGAR EDITORIALES -->
+                <!-- EDITORIALES DISPONIBLES -->        
+                <div class="card__service box__card-primary">
+                    <a href="-----------------"><img src="/IMAGENES/EDITORIALES - PRINCIPIO/rodo.jpeg" alt=""></a>
+                    <h2> Editorial Rodo</h2>
+                    <p>Mira todos nuestros libros disponibles</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- HASTA ACA PARA AGREGAR EDITORIALES -->
+                <!-- EDITORIALES DISPONIBLES -->        
+                <div class="card__service box__card-primary">
+                    <a href="-----------------"><img src="/IMAGENES/EDITORIALES - PRINCIPIO/megabyte.jpeg" alt=""></a>
+                    <h2> Editorial Megabyte</h2>
+                    <p>Mira todos nuestros libros disponibles</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- HASTA ACA PARA AGREGAR EDITORIALES -->
+                <!-- EDITORIALES DISPONIBLES -->        
+                <div class="card__service box__card-primary">
+                    <a href="-----------------"><img src="/IMAGENES/EDITORIALES - PRINCIPIO/rubiños.jpeg" alt=""></a>
+                    <h2> Editorial Rubiños</h2>
+                    <p>Mira todos nuestros libros disponibles</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- HASTA ACA PARA AGREGAR EDITORIALES -->
+                <!-- EDITORIALES DISPONIBLES -->        
+                <div class="card__service box__card-primary">
+                    <a href="-----------------"><img src="/IMAGENES/EDITORIALES - PRINCIPIO/san marcos.jpeg" alt=""></a>
+                    <h2> Editorial San Marcos</h2>
+                    <p>Mira todos nuestros libros disponibles</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- HASTA ACA PARA AGREGAR EDITORIALES -->
+                 <!-- EDITORIALES DISPONIBLES -->        
+                <div class="card__service box__card-primary">
+                    <a href="-----------------"><img src="/IMAGENES/EDITORIALES - PRINCIPIO/amauta.jpeg" alt=""></a>
+                    <h2> Editorial Amauta</h2>
+                    <p>Mira todos nuestros libros disponibles</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- HASTA ACA PARA AGREGAR EDITORIALES -->
+
+                <!-- EDITORIALES DISPONIBLES -->        
+                <div class="card__service box__card-primary">
+                    <a href="-----------------"><img src="/IMAGENES/EDITORIALES - PRINCIPIO/Lumbreras.jpg" alt=""></a>
+                    <h2> Otras Editoriales</h2>
+                    <p>Mira todos nuestros libros disponibles de otras EDITORIALES</p>
+                    <a href="#">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <!-- HASTA ACA PARA AGREGAR EDITORIALES -->
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</main>
+
+
+
+<!-- Footer -->
+
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3 class="footer-title">Ubicación</h3>
+                <p class="footer-text">Mercado Sur 125,</p><p> Huacho 15136</p>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title" id="contacto">Contacto</h3>
+                <p class="footer-text">Email: editorialgrethel@gmail.com</p>
+                <p class="footer-text">Teléfono: 938888614</p>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Síguenos</h3>
+                <div class="social-links">
+                    <a href="https://facebook.com" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://whatsapp.com" class="social-link" aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Calificación</h3>
+                <img src="/IMAGENES/FOOTER/Estrellas.png" alt="Estrellas" class="imagenes">
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Pagos</h3>
+                <div class="payment-methods">
+                    <img src="/IMAGENES/FOOTER/visa.jpg" alt="Visa" class="payment-icon">
+                    <img src="/IMAGENES/FOOTER/paypal.jpeg" alt="Paypal" class="payment-icon">
+                    <img src="/IMAGENES/FOOTER/pago efectivo.jpeg" alt="PagoEfectivo" class="payment-icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="footer-bottom-content">
+            <p>&copy; 2024 Editorial Grethel. Todos los derechos reservados.</p>
+
+        </div>
+    </div>
+
+</footer>
+    
+    
+
+
+
+</body>
+</html>
+
+
+
+<!-- REUTILIZAR TAMAÑOS, POR EJEMPLO, BTN_TEXT LO PUEDO USAR EN BTN_TEXT-ABOUT, ES DECIR LO MISMO PUEDO HACER CON LAS IMAGES -->
